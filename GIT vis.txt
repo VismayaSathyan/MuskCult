@@ -1,0 +1,12 @@
+Uncommit Changes you just made to your Git Repo:
+
+Now suppose you just made some error in your code or placed an unwanted file inside the repository, you can unstage the files you just added using:
+
+$ git reset HEAD~1
+# Remove the most recent commit
+# Commit again!
+
+
+fatal: ambiguous argument 'HEAD^': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
